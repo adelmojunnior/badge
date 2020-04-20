@@ -11,6 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = Badge::DESCRIPTION
   spec.description   = Badge::VERSION
   spec.homepage      = "https://github.com/HazAT/badge"
+  spec.metadata    = { 'source_code_uri' => 'https://https://github.com/adelmojunnior/badge' }
   spec.license       = "MIT"
 
   spec.required_ruby_version = '>= 2.0.0'
@@ -24,5 +25,6 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'fastlane', '>= 2.0'
   spec.add_dependency 'fastimage', '>= 1.6' # fetch the image sizes
   spec.add_dependency 'mini_magick', '~> 4.9.5' # to add badge image on app icon
+
 
 end
