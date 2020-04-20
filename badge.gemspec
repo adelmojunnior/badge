@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = Badge::DESCRIPTION
   spec.description   = Badge::VERSION
   spec.homepage      = "https://github.com/HazAT/badge"
-  spec.metadata    = { 'source_code_uri' => 'https://https://github.com/adelmojunnior/badge' }
+  spec.metadata    = { 'source_code_uri' => 'https://github.com/adelmojunnior/badge' }
   spec.license       = "MIT"
 
   spec.required_ruby_version = '>= 2.0.0'
